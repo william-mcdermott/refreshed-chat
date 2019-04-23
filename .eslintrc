@@ -10,10 +10,18 @@
   },
   "rules": {
     "no-console": "off",
+    "no-restricted-globals": "off",
+    "no-alert": "off",
     "comma-dangle": ["error", "never"],
     "no-unused-vars": ["error", {
       "vars": "local",
       "args": "none"
     }]
+  },
+  "globals": {
+    "Mustache": "readonly",
+    "moment": "readonly",
+    "io": "readonly",
+    "Qs": "readonly"
   }
 }
