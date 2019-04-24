@@ -16,6 +16,7 @@
     "no-restricted-globals": "off",
     "no-alert": "off",
     "comma-dangle": ["error", "never"],
+    "radix": ["error", "as-needed"],
     "no-unused-vars": ["error", {
       "vars": "local",
       "args": "none"
